@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote name="github"
+		fetch="ssh://git@github.com" />
+
+	<default remote="github"
+		revision="master"
+		sync-j="4" />
+
+	<!-- server -->
+	<project name="nextcloud/server" path="server" />
+
+	<project name="nextcloud/activity" path="server/apps-extra/activity" />
+	<project name="nextcloud/circles" path="server/apps-extra/circles" />
+	<project name="nextcloud/files_accesscontrol" path="server/apps-extra/files_accesscontrol" revision="main" />
+	<project name="nextcloud/files_pdfviewer" path="server/apps-extra/files_pdfviewer" />
+	<project name="nextcloud/groupfolders" path="server/apps-extra/groupfolders" />
+	<project name="nextcloud/hmr_enabler" path="server/apps-extra/hmr_enabler" />
+	<project name="nextcloud/logreader" path="server/apps-extra/logreader" />
+	<project name="nextcloud/notifications" path="server/apps-extra/notifications" />
+	<project name="nextcloud/serverinfo" path="server/apps-extra/serverinfo" />
+	<project name="nextcloud/user_usage_report" path="server/apps-extra/user_usage_report" />
+	<project name="nextcloud/viewer" path="server/apps-extra/viewer" />
+
+	<project name="nextcloud/calendar" path="server/apps-extra/calendar" revision="main" />
+	<project name="nextcloud/contacts" path="server/apps-extra/contacts" revision="main" />
+	<project name="nextcloud/mail" path="server/apps-extra/mail" revision="main" />
+
+	<!-- stable30 -->
+	<project name="nextcloud/server" path="server30" revision="stable30" />
+
+	<project name="nextcloud/activity" path="server30/apps-extra/activity" revision="stable30" />
+	<project name="nextcloud/circles" path="server30/apps-extra/circles" revision="stable30" />
+	<project name="nextcloud/files_accesscontrol" path="server30/apps-extra/files_accesscontrol" revision="stable30" />
+	<project name="nextcloud/files_pdfviewer" path="server30/apps-extra/files_pdfviewer" revision="stable30" />
+	<project name="nextcloud/groupfolders" path="server30/apps-extra/groupfolders" revision="stable30" />
+	<project name="nextcloud/hmr_enabler" path="server30/apps-extra/hmr_enabler" revision="master" />
+	<project name="nextcloud/logreader" path="server30/apps-extra/logreader" revision="stable30" />
+	<project name="nextcloud/notifications" path="server30/apps-extra/notifications" revision="stable30" />
+	<project name="nextcloud/serverinfo" path="server30/apps-extra/serverinfo" revision="stable30" />
+	<project name="nextcloud/user_usage_report" path="server30/apps-extra/user_usage_report" revision="stable30" />
+	<project name="nextcloud/viewer" path="server30/apps-extra/viewer" revision="stable30" />
+
+	<project name="nextcloud/calendar" path="server30/apps-extra/calendar" revision="stable5.0" />
+	<project name="nextcloud/contacts" path="server30/apps-extra/contacts" revision="stable6.1" />
+	<project name="nextcloud/mail" path="server30/apps-extra/mail" revision="stable4.0" />
+
+	<!-- stable29 -->
+	<project name="nextcloud/server" path="server29" revision="stable29" />
+
+	<project name="nextcloud/activity" path="server29/apps-extra/activity" revision="stable29" />
+	<project name="nextcloud/circles" path="server29/apps-extra/circles" revision="stable29" />
+	<project name="nextcloud/files_accesscontrol" path="server29/apps-extra/files_accesscontrol" revision="stable29" />
+	<project name="nextcloud/files_pdfviewer" path="server29/apps-extra/files_pdfviewer" revision="stable29" />
+	<project name="nextcloud/groupfolders" path="server29/apps-extra/groupfolders" revision="stable29" />
+	<project name="nextcloud/hmr_enabler" path="server29/apps-extra/hmr_enabler" revision="master" />
+	<project name="nextcloud/logreader" path="server29/apps-extra/logreader" revision="stable29" />
+	<project name="nextcloud/notifications" path="server29/apps-extra/notifications" revision="stable29" />
+	<project name="nextcloud/serverinfo" path="server29/apps-extra/serverinfo" revision="stable29" />
+	<project name="nextcloud/user_usage_report" path="server29/apps-extra/user_usage_report" revision="stable29" />
+	<project name="nextcloud/viewer" path="server29/apps-extra/viewer" revision="stable29" />
+
+	<project name="nextcloud/calendar" path="server29/apps-extra/calendar" revision="stable4.7" />
+	<project name="nextcloud/contacts" path="server29/apps-extra/contacts" revision="stable6.0" />
+	<project name="nextcloud/mail" path="server29/apps-extra/mail" revision="stable3.7" />
+
+	<!-- stable28 -->
+	<project name="nextcloud/server" path="server28" revision="stable28" />
+
+	<project name="nextcloud/activity" path="server28/apps-extra/activity" revision="stable28" />
+	<project name="nextcloud/circles" path="server28/apps-extra/circles" revision="stable28" />
+	<project name="nextcloud/files_accesscontrol" path="server28/apps-extra/files_accesscontrol" revision="stable28" />
+	<project name="nextcloud/files_pdfviewer" path="server28/apps-extra/files_pdfviewer" revision="stable28" />
+	<project name="nextcloud/groupfolders" path="server28/apps-extra/groupfolders" revision="stable28" />
+	<project name="nextcloud/hmr_enabler" path="server28/apps-extra/hmr_enabler" revision="master" />
+	<project name="nextcloud/logreader" path="server28/apps-extra/logreader" revision="stable28" />
+	<project name="nextcloud/notifications" path="server28/apps-extra/notifications" revision="stable28" />
+	<project name="nextcloud/serverinfo" path="server28/apps-extra/serverinfo" revision="stable28" />
+	<project name="nextcloud/user_usage_report" path="server28/apps-extra/user_usage_report" revision="stable28" />
+	<project name="nextcloud/viewer" path="server28/apps-extra/viewer" revision="stable28" />
+
+	<project name="nextcloud/calendar" path="server28/apps-extra/calendar" revision="stable4.7" />
+	<project name="nextcloud/contacts" path="server28/apps-extra/contacts" revision="stable5.5" />
+	<project name="nextcloud/mail" path="server28/apps-extra/mail" revision="stable3.7" />
+
+</manifest>
